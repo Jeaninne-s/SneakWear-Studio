@@ -17,17 +17,17 @@ Importante: esta versión es un prototipo académico de front-end. Algunas funci
 
 🛠️ Tecnologías utilizadas
 
-Tecnología	  | Uso
+Tecnología	   | Uso
 
 -------------------------------------------------------------------------
 
-HTML5         |Estructura y contenido de la página.
+HTML5          |Estructura y contenido de la página.
 
-CSS3	        |Estilos, diseño visual y adaptación responsive.
+CSS3	         |Estilos, diseño visual y adaptación responsive.
 
-JavaScript    |Interacciones y comportamiento de la interfaz.
+JavaScript     |Interacciones y comportamiento de la interfaz.
 
-LocalStorage	|Almacenamiento local de determinados datos en el navegador.
+LocalStorage	 |Almacenamiento local de determinados datos en el navegador.
 
 
 📁 Estructura del proyecto
@@ -54,6 +54,7 @@ SneakWear-Studio/
 No se requiere instalar dependencias ni ejecutar un proceso de compilación para esta versión estática.
 
 🌐 Publicación con GitHub Pages
+
 El proyecto puede publicarse desde GitHub Pages:
 1. Abre el repositorio en GitHub y entra en Settings → Pages.
 2. En Build and deployment, selecciona Deploy from a branch.
@@ -63,9 +64,11 @@ El proyecto puede publicarse desde GitHub Pages:
 URL del proyecto: Agregar aquí la URL pública de GitHub Pages cuando esté desplegado.
 
 📱 Diseño responsive
+
 La interfaz está preparada para adaptarse a distintos tamaños de pantalla. Se debe comprobar su visualización y funcionamiento en navegadores de escritorio y dispositivos móviles.
 
 📚 Contexto académico
+
 Proyecto del Grupo 3 para el curso HCI for UX Design. La propuesta aplica conceptos de interacción humano-computadora y diseño centrado en el usuario al proceso de exploración, personalización y compra de zapatillas.
 
 📄 Licencia
