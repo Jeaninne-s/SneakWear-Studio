@@ -645,10 +645,6 @@ dialog p { margin: 0 0 8px; }
 @media (max-width: 900px) { .community, .reviews { padding: 64px 22px; } .cmp { grid-template-columns: 1fr; } }
 
 
-/* =========================================
-   SNEAKWEAR STUDIO - CORRECCIONES RESPONSIVE
-   ========================================= */
-
 @media (max-width: 600px) {
 
   /* Evitar desbordamiento horizontal */
