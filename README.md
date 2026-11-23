@@ -3,6 +3,7 @@
 SneakWear Studio es una plataforma web responsive para explorar, personalizar y comprar zapatillas. El proyecto busca ofrecer una experiencia sencilla e interactiva en la que los usuarios puedan elegir un modelo, configurar sus características, revisar el resultado y consultar sus pedidos.
 
 Desarrollado por el Grupo 3 como parte del curso HCI for UX Design.
+
 ✨ Funcionalidades principales
 - Exploración de productos: consulta modelos de zapatillas, precios, disponibilidad y valoraciones.
 - Personalización: selección de colores y materiales, además de opciones para incorporar textos o imágenes.
@@ -15,11 +16,12 @@ Desarrollado por el Grupo 3 como parte del curso HCI for UX Design.
 Importante: esta versión es un prototipo académico de front-end. Algunas funciones, como la disponibilidad de stock, el pago y el seguimiento, utilizan datos de demostración. No se realizan transacciones comerciales reales ni se conecta con un servicio de pago o logística.
 
 🛠️ Tecnologías utilizadas
-Tecnología	Uso
-HTML5	Estructura y contenido de la página.
-CSS3	Estilos, diseño visual y adaptación responsive.
-JavaScript	Interacciones y comportamiento de la interfaz.
-LocalStorage	Almacenamiento local de determinados datos en el navegador.
+Tecnología	  | Uso
+-------------------------------------------------------------------------
+HTML5         |Estructura y contenido de la página.
+CSS3	        |Estilos, diseño visual y adaptación responsive.
+JavaScript    |Interacciones y comportamiento de la interfaz.
+LocalStorage	|Almacenamiento local de determinados datos en el navegador.
 
 
 📁 Estructura del proyecto
