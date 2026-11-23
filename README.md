@@ -52,6 +52,7 @@ SneakWear-Studio/
 3. Verifica que index.html, styles.css, script.js y sneaker-studio.jpg permanezcan en la misma carpeta.
 4. Abre index.html con un navegador actualizado.
 No se requiere instalar dependencias ni ejecutar un proceso de compilación para esta versión estática.
+
 🌐 Publicación con GitHub Pages
 El proyecto puede publicarse desde GitHub Pages:
 1. Abre el repositorio en GitHub y entra en Settings → Pages.
@@ -60,9 +61,12 @@ El proyecto puede publicarse desde GitHub Pages:
 4. Guarda los cambios y espera a que GitHub genere la dirección pública.
 5. Comprueba que la página cargue correctamente y que sus recursos se visualicen.
 URL del proyecto: Agregar aquí la URL pública de GitHub Pages cuando esté desplegado.
+
 📱 Diseño responsive
 La interfaz está preparada para adaptarse a distintos tamaños de pantalla. Se debe comprobar su visualización y funcionamiento en navegadores de escritorio y dispositivos móviles.
+
 📚 Contexto académico
 Proyecto del Grupo 3 para el curso HCI for UX Design. La propuesta aplica conceptos de interacción humano-computadora y diseño centrado en el usuario al proceso de exploración, personalización y compra de zapatillas.
+
 📄 Licencia
 Este repositorio incluye una licencia MIT. Consulta el archivo LICENSE para conocer sus términos. La licencia del código no concede automáticamente derechos sobre imágenes, marcas u otros recursos de terceros incluidos en el proyecto.
