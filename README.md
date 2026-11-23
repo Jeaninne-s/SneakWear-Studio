@@ -1,4 +1,5 @@
 👟 SneakWear Studio
+
 SneakWear Studio es una plataforma web responsive para explorar, personalizar y comprar zapatillas. El proyecto busca ofrecer una experiencia sencilla e interactiva en la que los usuarios puedan elegir un modelo, configurar sus características, revisar el resultado y consultar sus pedidos.
 
 Desarrollado por el Grupo 3 como parte del curso HCI for UX Design.
