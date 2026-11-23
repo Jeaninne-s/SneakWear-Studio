@@ -16,11 +16,17 @@ Desarrollado por el Grupo 3 como parte del curso HCI for UX Design.
 Importante: esta versión es un prototipo académico de front-end. Algunas funciones, como la disponibilidad de stock, el pago y el seguimiento, utilizan datos de demostración. No se realizan transacciones comerciales reales ni se conecta con un servicio de pago o logística.
 
 🛠️ Tecnologías utilizadas
+
 Tecnología	  | Uso
+
 -------------------------------------------------------------------------
+
 HTML5         |Estructura y contenido de la página.
+
 CSS3	        |Estilos, diseño visual y adaptación responsive.
+
 JavaScript    |Interacciones y comportamiento de la interfaz.
+
 LocalStorage	|Almacenamiento local de determinados datos en el navegador.
 
 
