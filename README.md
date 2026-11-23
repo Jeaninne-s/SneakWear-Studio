@@ -72,4 +72,5 @@ La interfaz está preparada para adaptarse a distintos tamaños de pantalla. Se 
 Proyecto del Grupo 3 para el curso HCI for UX Design. La propuesta aplica conceptos de interacción humano-computadora y diseño centrado en el usuario al proceso de exploración, personalización y compra de zapatillas.
 
 📄 Licencia
+
 Este repositorio incluye una licencia MIT. Consulta el archivo LICENSE para conocer sus términos. La licencia del código no concede automáticamente derechos sobre imágenes, marcas u otros recursos de terceros incluidos en el proyecto.
