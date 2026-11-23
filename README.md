@@ -31,13 +31,21 @@ LocalStorage	|Almacenamiento local de determinados datos en el navegador.
 
 
 📁 Estructura del proyecto
+
 SneakWear-Studio/
+
 ├── index.html
+
 ├── styles.css
+
 ├── script.js
+
 ├── sneaker-studio.jpg
+
 ├── README.md
+
 └── LICENSE
+
 ▶️ Cómo ejecutar el proyecto localmente
 1. Descarga el repositorio o utiliza la opción Code → Download ZIP en GitHub.
 2. Extrae los archivos, si descargaste el ZIP.
