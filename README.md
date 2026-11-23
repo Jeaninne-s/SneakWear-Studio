@@ -67,6 +67,23 @@ URL del proyecto: Agregar aquí la URL pública de GitHub Pages cuando esté des
 
 La interfaz está preparada para adaptarse a distintos tamaños de pantalla. Se debe comprobar su visualización y funcionamiento en navegadores de escritorio y dispositivos móviles.
 
+## 👥 Equipo de desarrollo
+
+Proyecto desarrollado por el **Grupo 3**:
+
+| N.º | Integrante |
+|---:|---|
+| 1 | Galvez Linares Sebastian Paolo |
+| 2 | Bustinza Cueva, Janusk Safira |
+| 3 | Guerra Castro, Jorge Santiago |
+| 4 | Abanto Vega, Víctor Alejandro |
+| 5 | Peralta Campos, Nayeli Ayelen |
+| 6 | Sapallanay Yallico, Silvana Milagros |
+
+Curso: HCI for UX Design  
+
+Proyecto: SneakWear Studio
+
 📚 Contexto académico
 
 Proyecto del Grupo 3 para el curso HCI for UX Design. La propuesta aplica conceptos de interacción humano-computadora y diseño centrado en el usuario al proceso de exploración, personalización y compra de zapatillas.
