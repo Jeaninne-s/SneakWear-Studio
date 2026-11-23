@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SneakWear Studio | Zapatillas personalizadas</title>
+    <meta name="description" content="Diseña zapatillas únicas, visualiza cada detalle y sigue tu pedido." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="SneakWear Studio, inicio">SNEAK<span>WEAR</span></a>
+    <button class="menu-button" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#personaliza">Personaliza</a>
+        <a href="#galeria">Comunidad</a>
+        <a href="#pedidos">Mis pedidos</a>
+    </nav>
+    <div class="header-actions">
+        <button class="icon-button" id="searchBtn" aria-label="Buscar" aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4"/></svg>
+        </button>
+        <button class="icon-button bag-button" id="cartBtn" aria-haspopup="dialog" aria-label="Carrito, 0 productos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+        <span id="cartCount" hidden aria-hidden="true">0</span>
+        </button>
+        <button class="profile-button" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3"/><path d="M5 20c.5-4 3-6 7-6s6.5 2 7 6"/></svg><span>Mi cuenta</span>
+        </button>
+    </div>
+    </header>
+
+    <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+        <p class="eyebrow">DISEÑA SIN LÍMITES</p>
+        <h1 id="hero-title">Tu estilo.<br />Tu huella.</h1>
+        <p class="hero-description">Crea zapatillas únicas, visualiza cada detalle en tiempo real y sigue su fabricación de principio a fin.</p>
+        <div class="hero-buttons">
+            <a class="primary-button" href="#personaliza">Empezar a diseñar
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5"/></svg></a>
+            <a class="text-button" href="#catalogo">Explorar modelos</a>
+        </div>
+        <ul class="trust-row" style="list-style:none;padding:0">
+            <li><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> Vista previa 360°</span></li>
+            <li><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> Seguimiento en vivo</span></li>
+        </ul>
+        </div>
+        <div class="hero-visual">
+        <div class="hero-label label-top">Edición en tiempo real</div>
+        <img src="sneaker-studio.jpg" alt="Zapatillas blancas y naranjas listas para personalizar" />
+        <div class="hero-label label-bottom">
+            <span class="mini-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/></svg></span>
+            <span><b>Vista 360°</b><small>Revisa cada ángulo</small></span>
+        </div>
+        <p class="photo-credit">Foto: Irene Kredenets / Unsplash</p>
+        </div>
+    </section>
+
+    <section class="journey" id="catalogo" aria-labelledby="journey-title">
+        <div class="section-heading">
+        <div><p class="eyebrow">TODO EN UN SOLO LUGAR</p><h2 id="journey-title">De la idea a tus pies</h2></div>
+        <p>Una experiencia clara y continua en cualquier pantalla.</p>
+        </div>
+        <div class="journey-grid">
+        <article class="journey-card"><span>01</span><h3>Elige tu base</h3><p>Explora modelos, reseñas y diseños de la comunidad.</p></article>
+        <article class="journey-card"><span>02</span><h3>Hazlo tuyo</h3><p>Combina materiales, colores, gráficos y textos.</p></article>
+        <article class="journey-card"><span>03</span><h3>Compra seguro</h3><p>Confirma talla, diseño y precio antes de pagar.</p></article>
+        <article class="journey-card"><span>04</span><h3>Sigue el proceso</h3><p>Recibe avances desde fabricación hasta entrega.</p></article>
+        </div>
+    </section>
+
+    <section class="studio-section" id="personaliza" aria-labelledby="studio-title">
+        <div class="studio-copy">
+        <p class="eyebrow">ESTUDIO DE PERSONALIZACIÓN</p>
+        <h2 id="studio-title">Diseñar se siente<br />así de simple.</h2>
+        <p>Opciones organizadas por pasos, ayuda contextual y validaciones que evitan errores antes de comprar.</p>
+        <ul>
+            <li><span>1</span><div><b>Selecciona una parte</b><small>Capellada, suela, cordones o detalles.</small></div></li>
+            <li><span>2</span><div><b>Personaliza al instante</b><small>Los cambios aparecen en tiempo real.</small></div></li>
+            <li><span>3</span><div><b>Confirma con confianza</b><small>Revisamos talla, calidad y configuración.</small></div></li>
+        </ul>
+        </div>
+
+        <form class="customizer" id="customizer" novalidate aria-label="Personalizador de zapatillas">
+        <div class="customizer-top"><span>Personalizador</span><span class="saved" id="saved" role="status">Diseño guardado</span></div>
+        <div class="customizer-body">
+            <div class="product-stage" id="stage">
+            <span class="view-tag" aria-hidden="true">360°</span>
+            <img id="stageImg" src="sneaker-studio.jpg" alt="Vista previa del modelo Runner Pulse" draggable="false" />
+            <div class="color-wash" aria-hidden="true"></div>
+            <button type="button" class="rotate-control" id="rotateBtn" aria-label="Rotar producto. Usa las flechas izquierda y derecha o arrastra">↻ Arrastra para rotar</button>
+            </div>
+            <div class="controls">
+            <div class="step-indicator"><b id="stepText">Paso 1 de 3</b><span id="stepName">Color</span></div>
+            <div class="progress" role="progressbar" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" aria-label="Progreso del personalizador" id="progress"><span style="width:33%"></span></div>
+
+            <div class="step-panel" data-step="1">
+                <p class="control-label" id="lbl-color">COLOR PRINCIPAL</p>
+                <div class="swatches" role="radiogroup" aria-labelledby="lbl-color" id="colors"></div>
+                <p class="selected-name" aria-live="polite" id="colorName"></p>
+                <p class="control-label" id="lbl-mat">MATERIAL</p>
+                <div class="choice-row" role="radiogroup" aria-labelledby="lbl-mat" id="materials"></div>
+            </div>
+            <div class="step-panel" data-step="2" hidden>
+                <p class="control-label" id="lbl-size">TALLA</p>
+                <div class="choice-row" role="radiogroup" aria-labelledby="lbl-size" id="sizes"></div>
+                <p class="error-msg" id="sizeError" role="alert"></p>
+            </div>
+            <div class="step-panel" data-step="3" hidden>
+                <p class="control-label">RESUMEN</p>
+                <ul id="summary" style="list-style:none;padding:0;font-size:14px;line-height:1.9"></ul>
+            </div>
+
+            <div class="step-nav">
+                <button type="button" id="prevBtn">Anterior</button>
+                <button type="button" id="nextBtn">Siguiente</button>
+            </div>
+            <div class="price-row"><span>Runner Pulse<br /><small>Diseño personalizado</small></span><b id="price">S/ 219</b></div>
+            <button type="submit" class="add-button" id="addBtn">Agregar al carrito
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5"/></svg></button>
+            </div>
+        </div>
+        </form>
+    </section>
+
+    <section class="tracking" id="pedidos" aria-labelledby="track-title">
+        <div><p class="eyebrow">TRANSPARENCIA DESPUÉS DE COMPRAR</p><h2 id="track-title">Sabes dónde está.<br />Sabes cómo va.</h2></div>
+        <div class="tracking-card">
+        <div class="order-head"><span><small>ORDEN</small><b>#SW-761-2026</b></span><span class="status">En producción</span></div>
+        <ol class="timeline" aria-label="Estado del pedido: paso 2 de 5, en producción">
+            <li class="complete"><span aria-hidden="true">✓</span><p>Pedido recibido</p></li>
+            <li class="complete" aria-current="step"><span aria-hidden="true">✓</span><p>En producción</p></li>
+            <li><span aria-hidden="true">3</span><p>Ensamblado</p></li>
+            <li><span aria-hidden="true">4</span><p>Envío</p></li>
+            <li><span aria-hidden="true">5</span><p>Entregado</p></li>
+        </ol>
+        <div class="update"><span class="update-thumb" aria-hidden="true"></span>
+            <p><b>Nuevo avance de tu diseño</b><small>La aplicación de color está lista para revisión.</small></p>
+            <button type="button" id="updateBtn" aria-haspopup="dialog">Ver avance</button></div>
+        </div>
+    </section>
+    </main>
+
+    <footer id="comunidad">
+    <a class="brand" href="#inicio">SNEAK<span>WEAR</span></a>
+    <p>Diseña lo que aún no existe.</p>
+    <span>© 2026 SneakWear Studio</span>
+    </footer>
+
+    <!-- Carrito -->
+    <dialog class="drawer" id="cartDialog" aria-labelledby="cartTitle">
+    <div class="dialog-inner">
+        <div class="dialog-head"><h2 id="cartTitle">Tu carrito</h2><button class="close-btn" data-close aria-label="Cerrar carrito">✕</button></div>
+        <ul class="cart-list" id="cartList"></ul>
+        <div class="cart-total"><span>Total</span><b id="cartTotal">S/ 0</b></div>
+        <button class="primary-button" id="checkoutBtn" type="button">Continuar al pago</button>
+    </div>
+    </dialog>
+
+    <!-- Búsqueda -->
+    <dialog id="searchDialog" aria-labelledby="searchTitle">
+        <div class="dialog-inner">
+        <div class="dialog-head"><h2 id="searchTitle">Buscar modelos</h2><button class="close-btn" data-close aria-label="Cerrar búsqueda">✕</button></div>
+        <label for="searchInput" class="sr-only">Buscar</label>
+        <input class="search-input" id="searchInput" type="search" placeholder="Runner, Classic, Urban…" autocomplete="off" />
+        <ul class="results" id="results" aria-live="polite"></ul>
+    </div>
+    </dialog>
+
+    <!-- Avance -->
+    <dialog id="updateDialog" aria-labelledby="updTitle">
+    <div class="dialog-inner">
+        <div class="dialog-head"><h2 id="updTitle">Avance de tu diseño</h2><button class="close-btn" data-close aria-label="Cerrar">✕</button></div>
+        <p class="muted">La aplicación de color está lista para revisión. Si todo está bien, pasaremos al ensamblado en 24 horas.</p>
+        <button class="primary-button" type="button" data-close>Aprobar y cerrar</button>
+    </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script>
+(function () {
+  var btn = document.getElementById('menuBtn');
+  var nav = document.getElementById('nav');
+  if (!btn || !nav) return;
+  function setMenu(open) {
+    nav.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open);
+    btn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  }
+  btn.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
+  nav.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+  document.addEventListener('click', function (e) {
+    if (nav.classList.contains('open') && !e.target.closest('#nav, #menuBtn')) setMenu(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && nav.classList.contains('open')) { setMenu(false); btn.focus(); }
+  });
+})();
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
